@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Typeevenement:</b>
+  <%= @evenement.typeevenement %>
+</p>
+
+<p>
+  <b>Auteur:</b>
+  <%= @evenement.auteur %>
+</p>
+
+<p>
+  <b>Date:</b>
+  <%= @evenement.date %>
+</p>
+
+<p>
+  <b>Titre:</b>
+  <%= @evenement.titre %>
+</p>
+
+<p>
+  <b>Thumbimage:</b>
+  <%= @evenement.thumbimage %>
+</p>
+
+<p>
+  <b>Fallimage:</b>
+  <%= @evenement.fallimage %>
+</p>
+
+
+<%= link_to 'Edit', edit_evenement_path(@evenement) %> |
+<%= link_to 'Back', evenements_path %>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>APIMassa</title>
+  <%= stylesheet_link_tag    "application", :media => "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	
+	<a href="../programmes">Programmes</a>
+	<a href="../evenements">Evenements</a>
+	<a href="../contacts">Contacts</a>
+	
+<%= yield %>
+
+</body>
+</html>

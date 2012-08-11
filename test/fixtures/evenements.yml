@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  typeevenement: MyString
+  auteur: MyString
+  date: MyString
+  titre: MyString
+  thumbimage: MyString
+  fallimage: MyString
+
+two:
+  typeevenement: MyString
+  auteur: MyString
+  date: MyString
+  titre: MyString
+  thumbimage: MyString
+  fallimage: MyString

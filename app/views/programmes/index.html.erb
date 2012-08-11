@@ -1,0 +1,47 @@
+<h1>Ici les différents programmes qui seront disponible sur l'application</h1>
+
+<table>
+  <tr>
+    <th>Typeprogramme</th>
+    <th>Nom</th>
+    <th>Langue</th>
+    <th>Age</th>
+    <th>Duree</th>
+    <th>Contactfr</th>
+    <th>Telfr</th>
+    <th>Mailfr</th>
+    <th>Sitefr</th>
+    <th>Contactis</th>
+    <th>Telis</th>
+    <th>Mailis</th>
+    <th>Siteis</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @programmes.each do |programme| %>
+  <tr>
+    <td><%= programme.typeprogramme %></td>
+    <td><%= programme.nom %></td>
+    <td><%= programme.langue %></td>
+    <td><%= programme.age %></td>
+    <td><%= programme.duree %></td>
+    <td><%= programme.contactfr %></td>
+    <td><%= programme.telfr %></td>
+    <td><%= programme.mailfr %></td>
+    <td><%= programme.sitefr %></td>
+    <td><%= programme.contactis %></td>
+    <td><%= programme.telis %></td>
+    <td><%= programme.mailis %></td>
+    <td><%= programme.siteis %></td>
+    <td><%= link_to 'Show', programme %></td>
+    <td><%= link_to 'Edit', edit_programme_path(programme) %></td>
+    <td><%= link_to 'Destroy', programme, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Programme', new_programme_path %>

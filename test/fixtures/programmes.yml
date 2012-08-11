@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  typeprogramme: MyString
+  nom: MyString
+  langue: MyString
+  age: MyString
+  duree: MyString
+  contactfr: MyString
+  telfr: MyString
+  mailfr: MyString
+  sitefr: MyString
+  contactis: MyString
+  telis: MyString
+  mailis: MyString
+  siteis: MyString
+
+two:
+  typeprogramme: MyString
+  nom: MyString
+  langue: MyString
+  age: MyString
+  duree: MyString
+  contactfr: MyString
+  telfr: MyString
+  mailfr: MyString
+  sitefr: MyString
+  contactis: MyString
+  telis: MyString
+  mailis: MyString
+  siteis: MyString
