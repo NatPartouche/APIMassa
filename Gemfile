@@ -7,7 +7,9 @@ gem 'rails', '3.2.2'
 
 gem 'sqlite3'
 
-
+source :rubygems
+gem 'sinatra', '1.1.0'
+gem 'thin'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
