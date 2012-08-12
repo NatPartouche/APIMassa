@@ -1,2 +1,15 @@
 class Programme < ActiveRecord::Base
+validates_presence_of:typeprogramme
+validates_presence_of:nom
+validates_presence_of:langue
+validates_presence_of:age
+validates_presence_of:duree
+validates_presence_of:contactfr
+validates_presence_of:telfr
+validates_presence_of:mailfr
+validates_presence_of:sitefr
+validates_presence_of:contactis
+validates_presence_of:telis
+validates_presence_of:mailis
+validates_presence_of:siteis
 end

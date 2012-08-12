@@ -1,2 +1,8 @@
 class Evenement < ActiveRecord::Base
+validates_presence_of:auteur
+validates_presence_of:date
+validates_presence_of:titre
+validates_presence_of:thumbimage
+validates_presence_of:fallimage
+
 end
