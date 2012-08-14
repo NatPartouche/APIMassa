@@ -1,8 +1,8 @@
 class Contact < ActiveRecord::Base
-validates_presence_of:typeprogramme
+validates_presence_of:questioncommentaire
 validates_presence_of:nom
-validates_presence_of:langue
-validates_presence_of:age
-validates_presence_of:duree
-validates_presence_of:contactfr
+validates_presence_of:prenom
+validates_presence_of:mail
+validates_presence_of:motivation
+
 end

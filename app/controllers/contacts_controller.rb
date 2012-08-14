@@ -7,7 +7,7 @@ class ContactsController < ApplicationController
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @contacts }
-      format.xml { render xml: @contacts }
+      format.xml { render xml:@contacts }
       
     end
   end

@@ -6,7 +6,6 @@ class CreateContacts < ActiveRecord::Migration
       t.string :mail
       t.string :motivation
       t.string :questioncommentaire
-
       t.timestamps
     end
   end
